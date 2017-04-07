@@ -1,0 +1,40 @@
+body{
+	font-family: arial;
+    background: black;
+}
+
+
+
+ul li{
+    font-family: arial;
+    list-style-type: none;
+    display: inline-table;
+    color: white;
+    list-style-type: none;
+    margin: 5px;
+}
+
+
+
+h1{
+	color: white;
+}
+
+
+
+
+video { 
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 122%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); 
+}
+
